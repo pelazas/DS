@@ -1,0 +1,10 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="videoclub.movietype.MovieType"><rhs name\="videoclub.movietype.ChildrensMovie"/><rhs name\="videoclub.movietype.NewReleaseMovie"/><rhs name\="videoclub.movietype.RegularMovie"/></lhs><lhs name\="main.UserInterface"><rhs name\="main.UserInterface"/></lhs><lhs name\="editor.core.Drawing"><rhs name\="editor.core.Drawing"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="editor.core.Tool"><rhs name\="editor.tool.SelectionTool"/></lhs><lhs name\="main.Validator"><rhs name\="validator.OrValidator"/><rhs name\="validator.TextValidator"/><rhs name\="validator.NumericValidator"/></lhs><lhs name\="editor.action.Action"><rhs name\="editor.action.MoveAction"/><rhs name\="editor.action.CreateAction"/></lhs></history>
+content_assist_number_of_computers=12
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=22
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

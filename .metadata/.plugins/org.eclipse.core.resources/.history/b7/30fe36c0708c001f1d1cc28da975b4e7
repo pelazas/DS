@@ -1,0 +1,32 @@
+package editor.action;
+
+import editor.core.Editor;
+import editor.core.Figure;
+
+public class MoveAction implements Action{
+	
+	private Editor editor;
+	private Figure figure;
+	private int moveX;
+	private int moveY;
+	
+	public MoveAction(Editor editor, Figure figure, int x, int y) {
+		this.editor = editor;
+		this.figure = figure;
+		this.moveX = x;
+		this.moveY = y;
+	}
+
+	@Override
+	public void execute() {
+		figure.moveBy(moveY, moveX);
+		
+	}
+
+	@Override
+	public void undo() {
+		figure.moveBy(-moveY, -moveX);
+		
+	}
+
+}

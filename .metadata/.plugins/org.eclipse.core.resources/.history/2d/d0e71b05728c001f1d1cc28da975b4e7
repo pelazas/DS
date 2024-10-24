@@ -1,0 +1,30 @@
+package editor.action;
+
+import java.util.Stack;
+
+public class ActionManager {
+
+	private Stack<Action> undoStack;
+	private Stack<Action> redoStack;
+	
+	public ActionManager() {
+		
+	}
+	
+	public void doAction(Action action) {
+		this.undoStack.add(action);
+	}
+	
+	public void undoAction() {
+		Action actionToUndo = undoStack.pop();
+		actionToUndo.undo();
+		redoStack.add(actionToUndo);
+	}
+	
+	public void redoAction() {
+		Action actionToRedo = redoStack.pop();
+		actionToRedo.execute();
+		undoStack.add(actionToRedo);
+	}
+	
+}

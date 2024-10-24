@@ -1,0 +1,7 @@
+package editor;
+
+public interface Action {
+
+	void hacer();
+	void deshacer();
+}
