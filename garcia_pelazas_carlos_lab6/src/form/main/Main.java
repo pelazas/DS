@@ -1,6 +1,7 @@
 package form.main;
 
 import form.Form;
+import form.editableItem.MonumentEditable;
 import google.maps.*;
 import model.*;
 
@@ -14,12 +15,12 @@ public class Main {
 		
 		Form form = new Form();
 		
-		// Se editan el autor y la direcci贸n del monumento
-		form.edit(coliseo);
+		// Se editan el autor y la direcci髇 del monumento
+		form.edit(new MonumentEditable(coliseo), new String[] {"author", "address"});
 		
-		// Tarea 1. Editar tambi茅n el restaurante: que se puedan editar el nombre y la direcci贸n
+		// Tarea 1. Editar tambi茅n el restaurante: que se puedan editar el nombre y la direcci髇
 		
-		// Tarea 2. Editar tambi茅n la foto (usuario y descripci贸n)
+		// Tarea 2. Editar tambi茅n la foto (usuario y descripci髇)
 
 		// Tarea 3. Editar de nuevo el monumento, pero ahora el nombre y la direcci贸n
 	}
