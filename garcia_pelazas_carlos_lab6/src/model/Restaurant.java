@@ -20,6 +20,18 @@ public class Restaurant {
 		return phone;
 	}
 
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+
 	// Marca el número del restaurante en el teléfono.
 	//
 	public void call() {

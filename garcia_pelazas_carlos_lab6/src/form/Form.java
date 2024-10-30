@@ -3,14 +3,12 @@ package form;
 import java.io.*;
 
 import form.editableItem.EditableItem;
-import model.Monument;
 
 // Formulario básico para usar cuando se quieran pedir solo dos valores sobre algo.
 //
 public class Form {
 
 	public void edit(EditableItem item, String[] fieldsToEdit) {
-		System.out.println("Editando el monumento...");
 
 		System.out.println("Valores actuales:");
 		System.out.println(item.toString());

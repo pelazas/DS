@@ -26,6 +26,16 @@ public class Photo {
 		System.out.printf("Abriendo la foto %s...\n",description);
 	}
 	
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public void setUser(String user) {
+		this.user = user;
+	}
+
+
+
 	private String description;
 	
 	// Información del usuario que ha subido la foto
