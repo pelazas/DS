@@ -1,9 +1,0 @@
-package editor.action;
-
-import java.util.Stack;
-
-public class ActionManager {
-
-	private Stack<Action> undoStack;
-	private Stack<Action> redoStack;
-}

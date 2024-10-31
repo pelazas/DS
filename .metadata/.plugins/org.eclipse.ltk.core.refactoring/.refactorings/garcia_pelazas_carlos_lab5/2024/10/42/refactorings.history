@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move element &apos;Action.java&apos; to &apos;garcia_pelazas_carlos_lab5/src/editor.action&apos;&#x0D;&#x0A;- Original project: &apos;garcia_pelazas_carlos_lab5&apos;&#x0D;&#x0A;- Destination element: &apos;garcia_pelazas_carlos_lab5/src/editor.action&apos;&#x0D;&#x0A;- Original element: &apos;editor.Action.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;editor.action" element1="/src&lt;editor{Action.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1729158868082" units="1" version="1.0"/>
-</session>
