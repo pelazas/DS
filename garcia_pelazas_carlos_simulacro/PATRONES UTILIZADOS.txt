@@ -1,0 +1,25 @@
+Patron command:
+
+Invoker: Editor
+	Metodos: execute(Command command);
+
+Client: Editor (el q genera los ConcreteCommands)
+	Metodos: open(Str filename)
+		 insertar(String[] words)
+		 borrar()
+		 replace(word1,word2)
+		 grabar(String nombreMacro)
+		 parar()
+		 ejecutarMacro(String nombreMacro)
+
+Command: Command Interface
+	Metodos: execute(Editor editor)
+
+ConcreteCommands: BorrarCommand, InsertCommand, OpenCommand, ReplaceCommand, Macro
+	Metodos: execute(Editor editor)
+
+-----------------------------------------------------------------------------------
+Patron composite:
+
+La clase Macro que implementa la interfaz Command, tiene una lista de Commands
+	Metodos: addCommand(Command c)
